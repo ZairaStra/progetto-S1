@@ -28,9 +28,8 @@ header div img {
 
 #banner {
   background-image: url(../images/banner.jpg);
-  background-size: 150%;
-  padding: 50px;
   text-align: center;
+  padding-block: 30px;
 }
 
 div h1 {
@@ -42,7 +41,7 @@ div p {
   padding: 1.5em;
 }
 
-div button {
+input {
   padding: 15px;
   color: white;
   background-color: #f04c2f;
