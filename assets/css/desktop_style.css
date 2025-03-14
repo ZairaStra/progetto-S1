@@ -111,6 +111,7 @@ blockquote h6 {
 section {
   margin-block: 45px;
   padding: 50px;
+  display: inline-block;
   text-align: center;
 }
 .article {
