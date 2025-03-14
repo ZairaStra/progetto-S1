@@ -8,9 +8,14 @@ h5,
 h6 {
   font-family: Montserrat;
   font-weight: bold;
+  color: #25a2c3;
+  line-height: 1.5;
 }
 body {
   font-family: OpenSans;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
 }
 header div {
   background-color: black;
@@ -18,16 +23,46 @@ header div {
 }
 header div img {
   padding: 30px;
-  width: 100px;
+  height: 40px;
+  vertical-align: middle;
 }
-banner {
-  background-color: lightgrey;
-  min-height: 30em;
+
+#banner {
   background-image: url(../images/banner.jpg);
+  max-width: 100%;
+  padding: 30px;
   text-align: center;
 }
+
+div h1 {
+  font-size: 2.5em;
+  line-height: 1em;
+}
+div p {
+  padding: 1.5em;
+}
+
+div button {
+  padding: 15px;
+  color: white;
+  background-color: #f04c2f;
+  font-family: Montserrat;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 4px;
+}
+
 .main {
 }
 main div img {
   border-radius: 50%;
+}
+footer {
+  color: #c8e7f0;
+}
+footer h2 {
+  color: white;
+}
+footer link {
+  color: #c8e7f0;
 }
