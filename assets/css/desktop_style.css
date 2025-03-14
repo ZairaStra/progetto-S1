@@ -1,0 +1,146 @@
+/* Your styles here */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #25a2c3;
+  line-height: 1.5;
+}
+body {
+  font-family: OpenSans;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+}
+header div {
+  background-color: black;
+  padding: 30px;
+}
+header div img {
+  padding: 30px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+#banner {
+  background-image: url(../images/banner.jpg);
+  background-size: 150%;
+  background-position: center;
+  text-align: center;
+  padding-block: 40px;
+}
+
+div h1 {
+  font-size: 2.5em;
+  line-height: 1em;
+  padding-top: 20px;
+}
+div p {
+  padding: 1.5em;
+}
+
+input {
+  padding: 15px;
+  color: white;
+  background-color: #f04c2f;
+  font-family: Montserrat;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 4px;
+}
+
+main {
+  margin-block: 50px;
+}
+
+.main {
+  text-align: center;
+  padding-top: 20px;
+}
+
+main div {
+  margin-inline: 50px;
+  text-align: center;
+}
+main div img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+blockquote {
+  background-color: #f04c2f;
+  color: white;
+  padding-block: 50px;
+  padding-inline: 30px;
+  text-align: center;
+}
+
+blockquote h2 {
+  margin-block: 20px;
+  font-size: 2em;
+  color: inherit;
+}
+blockquote p {
+  padding-block: 20px;
+  font-style: italic;
+}
+blockquote h3 {
+  color: inherit;
+  font-weight: normal;
+}
+blockquote h6 {
+  color: inherit;
+  font-weight: lighter;
+  font-size: x-small;
+}
+
+section {
+  padding-block: 20px;
+}
+.article {
+  margin-inline: 30px;
+  margin-block: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dee1e3;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+
+.article img {
+  width: 100%;
+}
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  padding: 50px;
+  text-align: center;
+}
+
+footer h2 {
+  color: white;
+  font-size: 2em;
+}
+footer a {
+  color: #c8e7f0;
+}
+
+footer ul {
+  padding: 20px;
+  list-style: none;
+}
+hr {
+  width: 200px;
+  border-style: solid;
+  border-width: 1px;
+  color: #c8e7f0;
+}
+
+footer p {
+  padding: 20px;
+}
