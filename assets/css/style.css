@@ -53,6 +53,10 @@ input {
   border-radius: 4px;
 }
 
+main {
+  margin-block: 50px;
+}
+
 .main {
   text-align: center;
   padding-top: 20px;
