@@ -62,8 +62,9 @@ main {
 .content {
   display: inline-block;
   width: 50%;
+  height: 100%;
   text-align: right;
-  margin: -4px;
+  margin-right: -4px;
   padding-block: 20px;
   vertical-align: middle;
 }
@@ -74,6 +75,7 @@ main div img {
 }
 .main {
   padding-inline: 30px;
+  padding-block: 20px;
 }
 main div {
   text-align: left;
@@ -107,21 +109,29 @@ blockquote h6 {
 }
 
 section {
-  padding-block: 20px;
+  margin-block: 45px;
+  padding: 50px;
+  text-align: center;
 }
 .article {
-  margin-inline: 30px;
-  margin-block: 45px;
+  display: inline-block;
+  text-align: center;
+  margin-inline: 37px;
+  margin-right: -4px;
+  width: 350px;
   border-style: solid;
   border-width: 1px;
   border-color: #dee1e3;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  text-align: center;
 }
 
 .article img {
   width: 100%;
+}
+
+.didascalia {
+  height: 30%;
 }
 footer {
   background-color: #25a2c3;
@@ -141,7 +151,9 @@ footer a {
 footer ul {
   padding: 20px;
   list-style: none;
+  text-align: center;
 }
+
 hr {
   width: 200px;
   border-style: solid;
