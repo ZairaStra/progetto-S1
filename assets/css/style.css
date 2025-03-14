@@ -29,7 +29,7 @@ header div img {
 
 #banner {
   background-image: url(../images/banner.jpg);
-  max-width: 100%;
+  background-size: 150%;
   padding: 30px;
   text-align: center;
 }
@@ -37,6 +37,7 @@ header div img {
 div h1 {
   font-size: 2.5em;
   line-height: 1em;
+  padding-top: 20px;
 }
 div p {
   padding: 1.5em;
@@ -53,11 +54,20 @@ div button {
 }
 
 .main {
+  text-align: center;
+  padding-top: 20px;
+}
+
+main div {
+  margin-inline: 50px;
+  text-align: center;
 }
 main div img {
+  width: 100%;
   border-radius: 50%;
 }
 footer {
+  background-color: #25a2c3;
   color: #c8e7f0;
 }
 footer h2 {
