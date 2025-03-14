@@ -41,7 +41,8 @@ div h1 {
 div p {
   padding: 1.5em;
 }
-button {
+
+div button {
   padding: 15px;
   color: white;
   background-color: #f04c2f;
@@ -89,6 +90,7 @@ blockquote h3 {
 blockquote h6 {
   color: inherit;
   font-weight: lighter;
+  font-size: x-small;
 }
 
 section {
