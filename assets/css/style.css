@@ -30,7 +30,7 @@ header div img {
 #banner {
   background-image: url(../images/banner.jpg);
   background-size: 150%;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -42,8 +42,7 @@ div h1 {
 div p {
   padding: 1.5em;
 }
-
-div button {
+button {
   padding: 15px;
   color: white;
   background-color: #f04c2f;
@@ -92,9 +91,28 @@ blockquote h6 {
   color: inherit;
   font-weight: lighter;
 }
+
+section {
+  padding-block: 20px;
+}
+.article {
+  margin-inline: 30px;
+  margin-block: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dee1e3;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+}
+
+.article img {
+  width: 100%;
+}
 footer {
   background-color: #25a2c3;
   color: #c8e7f0;
+  text-align: center;
 }
 footer h2 {
 }
